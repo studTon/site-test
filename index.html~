@@ -19,7 +19,8 @@
 			font-size: 20;
 			color: gold;
 		}
-		p{
+		p{	
+			background-color: lightgrey;
 			font-family: Consolas;
 			font-size: 12;
 			color: darkcyan;
