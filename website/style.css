@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*Body*/
+		body{
+			background-color: gold;
+		}
+		h1{
+			font-family: Consolas;
+			color: cornflowerblue;		
+		}	
+		h2{
+			font-family: Consolas;
+			color: cornflowerblue;		
+		}
+		p{
+			font-family: Consolas;		
+		}
+/*Logo format*/
+figure.logo{
+	position: relative;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
