@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Imagens dinâmicas</title>
+	<link rel="stylesheet" href="estilo-img.css"type="text/css"/>
+</head>
+	
+<body>
+	<h1>Imagens dinâmicas</h1>
+	<picture>
+		<source media="(max-width: 750px)" srcset="img-p.png" type="image/png">
+		<source media="(max-width: 1050px)" srcset="img-m.png" type="image/png">
+		<img src="img-g.png" alt="Cor azul"/>
+	</picture>
+	<h1>Áudio</h1>
+	<audio preload="none" controls>
+		<source src="manual-do-mundo.mp3">
+		<p>Sem suporte ao áudio: <a href="manual-do-mundo.mp3" download="manual-do-mundo" type="audio/mpeg">download</a></p>
+	</audio>
+	<h1>Vídeo</h1>	
+	<video width="600" poster="img-vid.png" controls>
+		<source src="vid.mp4" type="video/mp4">
+		<p>Não foi possível carregar o vídeo</p>
+	</video>
+	<h1>Vídeo hospedado</h1>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/I39RKjerJss" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
