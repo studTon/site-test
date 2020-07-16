@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*Folha de estilos*/
+
+body{
+	background-color: gold;
+	color: black;
+	font-size: 14pt;
+	font-family: sans-serif;
+}
+
+h1{
+	color: brown;
+}
+
+h2{
+	color: darkbrown;	
+}
+
+a{
+	color: purple;
+}

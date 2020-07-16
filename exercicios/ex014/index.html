@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8"/>
+	<title>CSS Interno</title>
+	<style>
+		body{
+			font: 12pt Arial;
+			background-color: wheat;
+		}
+		h1{
+			color: white;
+			background-color: sienna;
+		}
+		p{
+			color: sienna;
+		}
+		mark{
+			color: lightsalmon;
+			background-color: brown;
+		}
+	</style>
+</head>
+<body>
+	<h1>CSS Internal</h1>
+	<p>Um estilo interno é aquele que fica configurado dentro da área &lt;head&gt; do seu documento</p>
+	<p>A grande <mark>vantagem</mark> dessa maneira em relação do modelo <em>inline</em> é que podemos escrever uma configuração única para todos os elementos da mesma família. Por exemplo, todos os parágrafos desse documento estão com a mesma configuração de cor e eu só escrevi isso uma vez.</p>
+	<p>A grande <mark>desvantagem</mark> dessa técnica em relação ao uso de um CSS externo (veja o próximo exercício também) é que o estilo não pode ser reaproveitado por outras páginas.</p>
+	<p><strong style="color: darkred">IMPORTANTE:</strong> Você pode misturar CSS inline e CSS internal em um mesmo documento sem problemas! Olha só o código fonte dessa página no seu navegador!</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "utf-8";
+body{
+	background-color: lightgoldenrodyellow;
+	color: chocolate;
+	font-size: 12pt;
+	font-family: Arial;
+}
+h1{
+	color: brown;
+}
+a{
+	color: brown;
+	text-decoration: none;
+}
+a:visited{
+	color: coral;
+}
+a:hover{
+	color: black;
+	text-decoration: underline;
+}
