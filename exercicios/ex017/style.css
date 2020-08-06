@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 body{
-	font: normal 20px Roboto;
+	font-family: Arial;
+	font-size: 14pt;
 	background-color: gold;
 }
 
