@@ -1,0 +1,23 @@
+/*Documento de estilo para definir as pseudo-classes*/
+@charset "utf-8";
+
+body{
+	font-family: Helvetica;
+}
+
+p{
+	text-align: justify;
+}
+
+a{
+	text-decoration: underline;
+	color: purple;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+a:visited{
+	color: #3e003e;
+}
