@@ -21,3 +21,13 @@ a:hover{
 a:visited{
 	color: #3e003e;
 }
+
+div > p{
+	display: none;
+}
+
+div:hover > p{
+	display: block;
+	background-color: purple;
+	color: white;
+}
