@@ -1,2 +1,2 @@
-# site-test
-HTML exercises. How to build a website.
+# web-dev-exercises
+HTML and CSS exercises about: How to build a website.
